@@ -1,7 +1,7 @@
 <div class="main-sidebar sidebar-style-2">
     <aside id="sidebar-wrapper">
         <div class="sidebar-brand">
-            <a href="index.html">E - Kedai
+            <a href="index.html">MY - Kedai
                 <img src="{{ asset('img/kedai.png') }}"
                 alt="logo"
                 width="70">
@@ -28,7 +28,7 @@
             </li>
             <li class="{{ Request::is('credits') ? 'active' : '' }}">
                 <a class="nav-link"
-                    href="{{ route('product.index')}}"><i class="fa-sharp-duotone fa-solid fa-store"></i>
+                    href="{{ route('product.index')}}"><i class="fa-solid fa-basket-shopping"></i></i>
                     </i> <b><span>Product</span></b>
                 </a>
             </li>

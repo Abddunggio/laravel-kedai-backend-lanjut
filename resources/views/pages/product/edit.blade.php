@@ -54,6 +54,7 @@
                                 <input type="text" name="stock" class="form-control" value="{{ old('stock', $product->stock) }}" required>
                             </div>
 
+
                             <div class="form-group">
                                 <label class="form-label">category</label>
                                 <div class="selectgroup w-100">
