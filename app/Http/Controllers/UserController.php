@@ -27,7 +27,7 @@ class UserController extends Controller
     //create
     public function create()
     {
-        return view ('user.add');
+        return view('user.add');
     }
 
     public function store(Request $request)
@@ -53,7 +53,7 @@ class UserController extends Controller
     //show
     public function show($id)
     {
-        return view ('pages.dashboard');
+        return view('pages.dashboard');
 
     }
 
